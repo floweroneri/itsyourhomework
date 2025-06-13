@@ -1,6 +1,6 @@
 @font-face {
-    font-family:'Pretendard';
-    src: url(Pretendard-SemiBold.ttf);
+    font-family:'pretendard';
+    src: url(pretendard.ttf);
 }
 
 
@@ -9,14 +9,12 @@ body {
     height: 100vh;
     background-color: #F9F9F9;
     text-align: center;
-	font-family: 'Pretendard';
+    font-family:'pretendard';
     justify-content: center;
     align-items: center;
     color: #1f1f1f;
 }
-.container {
-    /* border: 1px solid black; */
-}
+
 h1 {
     font-size: 5em;
 }
