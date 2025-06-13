@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'mischief';
+    font-family: "mischief";
     src: url("J개구쟁이-Medium.otf");
 }
 
@@ -8,7 +8,7 @@ body {
     height: 100vh;
     background-color: #F9F9F9;
     text-align: center;
-    font-family: 'mischief';
+    font-family: "mischief";
     display: flex;
     justify-content: center;
     align-items: center;
