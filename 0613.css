@@ -1,0 +1,99 @@
+@font-face {
+    font-family: mischief;
+    src: url("J개구쟁이-Medium.otf");
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F9F9F9;
+    text-align: center;
+    font-family: mischief;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    /* border: 1px solid black; */
+}
+h1 {
+    font-size: 5em;
+}
+h2 {
+    font-size: 3em;
+}
+p {
+    font-size: 2.5em;
+}
+img {
+    border-radius: 20px;
+}
+img:hover {
+    box-shadow: 10px 10px 5px lightblue;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 30px;
+}
+
+::selection{
+   background-color: aquamarine;
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-color: #FFE0AC;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    #description {
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    body {
+        background-color: #FFACB7;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    p {
+        font-size: 1.75em;
+    }
+    #description {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #6886C5;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.75em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    #description {
+        padding: 50px;
+    }
+}
