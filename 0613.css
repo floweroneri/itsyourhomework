@@ -1,17 +1,18 @@
 @font-face {
-    font-family: "mischief";
-    src: url("J개구쟁이-Medium.otf");
+    font-family:'Pretendard';
+    src: url(Pretendard-SemiBold.ttf);
 }
+
 
 body {
     width: 100vw;
     height: 100vh;
     background-color: #F9F9F9;
     text-align: center;
-    font-family: "mischief";
-    display: flex;
+	font-family: 'Pretendard';
     justify-content: center;
     align-items: center;
+    color: #1f1f1f;
 }
 .container {
     /* border: 1px solid black; */
